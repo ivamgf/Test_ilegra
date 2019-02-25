@@ -5,10 +5,11 @@
 </div>
 
 <div class="card container card_films" style="width:300px">
-  <img class="card-img-top" src="../../assets/logo.png" alt="Card image">
+  <img class="card-img-top" src="../../assets/Tatoooine.jpg" alt="Card image">
   <div class="card-body">
     <h4 class="card-title">Lista de Planetas</h4>
-    <p class="card-text">Some example text.</p>
-    <a href="#" class="btn btn-primary" routerLink="/film1">Ver mais Detalhes do Filme</a>
+    <ul>
+      <li *ngFor="let i of getPlanets.results">{{i.name}}</li>
+    </ul>
   </div>
 </div>

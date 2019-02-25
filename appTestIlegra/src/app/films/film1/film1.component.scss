@@ -1,0 +1,15 @@
+.card_films {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.card-img-top {
+    margin-top: 5%;
+}
+@media only screen and (max-width: 817px) {
+    .img_lightsaber {
+        width: 90%;
+    }
+    .card_films {
+        width: 100px;
+    }
+}

@@ -5,64 +5,74 @@
 </div>
 
 <div class="card container card_films" style="width:300px">
-  <img class="card-img-top" src="../../assets/logo.png" alt="Card image">
+    <img class="card-img-top" src="../../assets/logo.png" alt="Card image">
+    <div class="card-body">
+      <h4 class="card-title">Lista de filmes</h4>
+      <ul>
+        <li *ngFor="let i of getFilms.results">{{i.title}}</li>
+      </ul>
+    </div>
+  </div>
+
+<div class="card container card_films" style="width:300px">
+  <img class="card-img-top" src="../../assets/ep4.png" alt="Card image">
   <div class="card-body">
-    <h4 class="card-title">John Doe</h4>
-    <p class="card-text">Some example text.</p>
+    <h4 class="card-title">{{getFilm1.title}}</h4>
+    <p class="card-text">Episódio {{getFilm1.episode_id}}</p>
     <a href="#" class="btn btn-primary" routerLink="/film1">Ver mais Detalhes do Filme</a>
   </div>
 </div>
 
 <div class="card container card_films" style="width:300px">
-  <img class="card-img-top" src="../../assets/logo.png" alt="Card image">
+  <img class="card-img-top" src="../../assets/ep5.jpg" alt="Card image">
   <div class="card-body">
-    <h4 class="card-title">John Doe</h4>
-    <p class="card-text">Some example text.</p>
+    <h4 class="card-title">{{getFilm2.title}}</h4>
+    <p class="card-text">Episódio {{getFilm2.episode_id}}</p>
     <a href="#" class="btn btn-primary" routerLink="/film2">Ver mais Detalhes do Filme</a>
   </div>
 </div>
 
 <div class="card container card_films" style="width:300px">
-  <img class="card-img-top" src="../../assets/logo.png" alt="Card image">
+  <img class="card-img-top" src="../../assets/ep6.jpg" alt="Card image">
   <div class="card-body">
-    <h4 class="card-title">John Doe</h4>
-    <p class="card-text">Some example text.</p>
+    <h4 class="card-title">{{getFilm3.title}}</h4>
+    <p class="card-text">Episódio {{getFilm3.episode_id}}</p>
     <a href="#" class="btn btn-primary" routerLink="/film3">Ver mais Detalhes do Filme</a>
   </div>
 </div>
 
 <div class="card container card_films" style="width:300px">
-  <img class="card-img-top" src="../../assets/logo.png" alt="Card image">
+  <img class="card-img-top" src="../../assets/ep1.png" alt="Card image">
   <div class="card-body">
-    <h4 class="card-title">John Doe</h4>
-    <p class="card-text">Some example text.</p>
+    <h4 class="card-title">{{getFilm4.title}}</h4>
+    <p class="card-text">Episódio {{getFilm4.episode_id}}</p>
     <a href="#" class="btn btn-primary" routerLink="/film4">Ver mais Detalhes do Filme</a>
   </div>
 </div>
 
 <div class="card container card_films" style="width:300px">
-  <img class="card-img-top" src="../../assets/logo.png" alt="Card image">
+  <img class="card-img-top" src="../../assets/ep2.jpg" alt="Card image">
   <div class="card-body">
-    <h4 class="card-title">John Doe</h4>
-    <p class="card-text">Some example text.</p>
+    <h4 class="card-title">{{getFilm5.title}}</h4>
+    <p class="card-text">Episódio {{getFilm5.episode_id}}</p>
     <a href="#" class="btn btn-primary" routerLink="/film5">Ver mais Detalhes do Filme</a>
   </div>
 </div>
 
 <div class="card container card_films" style="width:300px">
-  <img class="card-img-top" src="../../assets/logo.png" alt="Card image">
+  <img class="card-img-top" src="../../assets/ep3.jpg" alt="Card image">
   <div class="card-body">
-    <h4 class="card-title">John Doe</h4>
-    <p class="card-text">Some example text.</p>
+    <h4 class="card-title">{{getFilm6.title}}</h4>
+    <p class="card-text">Episódio {{getFilm6.episode_id}}</p>
     <a href="#" class="btn btn-primary" routerLink="/film6">Ver mais Detalhes do Filme</a>
   </div>
 </div>
 
 <div class="card container card_films" style="width:300px">
-  <img class="card-img-top" src="../../assets/logo.png" alt="Card image">
+  <img class="card-img-top" src="../../assets/ep7.jpg" alt="Card image">
   <div class="card-body">
-    <h4 class="card-title">John Doe</h4>
-    <p class="card-text">Some example text.</p>
+    <h4 class="card-title">{{getFilm7.title}}</h4>
+    <p class="card-text">Episódio {{getFilm7.episode_id}}</p>
     <a href="#" class="btn btn-primary" routerLink="/film7">Ver mais Detalhes do Filme</a>
   </div>
 </div>
