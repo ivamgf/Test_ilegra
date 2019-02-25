@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { Http, Response } from '@angular/http';
-import { map } from 'rxjs/operators';
 import { Headers } from '@angular/http';
 import { AppService } from '../../app.service';
 
@@ -11,7 +10,8 @@ contentHeaders.append('Content-Type', 'application/json');
 @Component({
   selector: 'app-film1',
   templateUrl: './film1.component.html',
-  styleUrls: ['./film1.component.scss']
+  styleUrls: ['./film1.component.scss'],
+  providers: [Http]
 })
 export class Film1Component implements OnInit {
   getFilm1: any;

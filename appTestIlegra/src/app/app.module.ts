@@ -31,13 +31,16 @@ import { AboutComponent } from './about/about.component';
     Film7Component,
     AboutComponent
   ],
+  exports: [
+    NavComponent
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpModule
   ],
   schemas: [ NO_ERRORS_SCHEMA, CUSTOM_ELEMENTS_SCHEMA ],
-  providers: [],
+  providers: [Http],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
