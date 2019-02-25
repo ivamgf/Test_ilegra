@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { Http, Response } from '@angular/http';
-import { map } from 'rxjs/operators';
 import { Headers } from '@angular/http';
 import { AppService } from '../app.service';
 
