@@ -40,6 +40,8 @@ https://github.com/ivamgf/Test_ilegra
 5-Para finalizar o projeto é necessário usar o seguinte no terminal:
 > Ctrl + c
 
+Nota: Por isso para rodar o site é necessário abrir o projeto em uma IDE, de preferência o Visual Studio Code. Deve-se instalar as dependências já configuradas para instalação no package.json, além de instalar o framework angular. Para rodar a aplicação então deve-se digitar o comando ng serve --open no terminal.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
