@@ -19,4 +19,7 @@ describe('Film2Component', () => {
     fixture.detectChanges();
   });
 
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
 });
